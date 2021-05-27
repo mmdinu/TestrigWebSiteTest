@@ -24,58 +24,58 @@ public class DomainsPage extends BaseTest {
             TravelWeb.click();
             driver.navigate().to("https://www.testrigtechnologies.com/domains/");
 
-            CloseMessenger();
-            SwitchToDefaultFrame();
-            WebElement SaasWeb = driver.findElement(By.xpath("//a[@title='SaaS Application Testing']/div[@class='traingle2']"));
-            SaasWeb.click();
-            driver.navigate().to("https://www.testrigtechnologies.com/domains/");
-
-            CloseMessenger();
-            SwitchToDefaultFrame();
-            WebElement RetailWeb = driver.findElement(By.xpath("//a[@title='Retail Application Testing']/div[@class='traingle2']"));
-            RetailWeb.click();
-            driver.navigate().to("https://www.testrigtechnologies.com/domains/");
-
-            CloseMessenger();
-            SwitchToDefaultFrame();
-            WebElement BankAppWeb = driver.findElement(By.xpath("//a[@title='BFSI Application Testing']/div[@class='traingle2']"));
-            BankAppWeb.click();
-            driver.navigate().to("https://www.testrigtechnologies.com/domains/");
-
+//            CloseMessenger();
+//            SwitchToDefaultFrame();
+//            WebElement SaasWeb = driver.findElement(By.xpath("//a[@title='SaaS Application Testing']/div[@class='traingle2']"));
+//            SaasWeb.click();
+//            driver.navigate().to("https://www.testrigtechnologies.com/domains/");
+//
+//            CloseMessenger();
+//            SwitchToDefaultFrame();
+//            WebElement RetailWeb = driver.findElement(By.xpath("//a[@title='Retail Application Testing']/div[@class='traingle2']"));
+//            RetailWeb.click();
+//            driver.navigate().to("https://www.testrigtechnologies.com/domains/");
+//
+//            CloseMessenger();
+//            SwitchToDefaultFrame();
+//            WebElement BankAppWeb = driver.findElement(By.xpath("//a[@title='BFSI Application Testing']/div[@class='traingle2']"));
+//            BankAppWeb.click();
+//            driver.navigate().to("https://www.testrigtechnologies.com/domains/");
+//
             CloseMessenger();
             SwitchToDefaultFrame();
             WebElement ErpWeb = driver.findElement(By.xpath("//a[@title='ERP Testing Services']/div[@class='traingle2']"));
             ErpWeb.click();
             driver.navigate().to("https://www.testrigtechnologies.com/domains/");
-
+//
+//            CloseMessenger();
+//            SwitchToDefaultFrame();
+//            WebElement PaymentWeb = driver.findElement(By.xpath("//a[@title='Payment Gateway Testing Services']/div[@class='traingle2']"));
+//            PaymentWeb.click();
+//            driver.navigate().to("https://www.testrigtechnologies.com/domains/");
+//
+//            CloseMessenger();
+//            SwitchToDefaultFrame();
+//            WebElement LearningWeb = driver.findElement(By.xpath("//a[@title='E-Learning Application Testing']/div[@class='traingle2']"));
+//            LearningWeb.click();
+//            driver.navigate().to("https://www.testrigtechnologies.com/domains/");
+//
             CloseMessenger();
             SwitchToDefaultFrame();
-            WebElement PaymentWeb = driver.findElement(By.xpath("//a[@title='Payment Gateway Testing Services']/div[@class='traingle2']"));
-            PaymentWeb.click();
-            driver.navigate().to("https://www.testrigtechnologies.com/domains/");
-
-            CloseMessenger();
-            SwitchToDefaultFrame();
-            WebElement LearningWeb = driver.findElement(By.xpath("//a[@title='E-Learning Application Testing']/div[@class='traingle2']"));
-            LearningWeb.click();
-            driver.navigate().to("https://www.testrigtechnologies.com/domains/");
-
-            CloseMessenger();
-            SwitchToDefaultFrame();
-            WebElement RealWeb = driver.findElement(By.xpath("//a[@title='Real Estate Software Testing Services']/div[@class='traingle2']"));
+            WebElement RealWeb = driver.findElement(By.xpath("//a[@title='Real Estate Software Testing Company']//div[@class='traingle2']"));
             RealWeb.click();
             driver.navigate().to("https://www.testrigtechnologies.com/domains/");
-
-            CloseMessenger();
-            SwitchToDefaultFrame();
-            WebElement CommerceWeb = driver.findElement(By.xpath("//a[@title='e-Commerce Application Testing']/div[@class='traingle2']"));
-            CommerceWeb.click();
-            driver.navigate().to("https://www.testrigtechnologies.com/domains/");
-
-            CloseMessenger();
-            SwitchToDefaultFrame();
-            WebElement HealthcareWeb = driver.findElement(By.xpath("//a[@title='Healthcare Domain Testing']/div[@class='traingle2']"));
-            HealthcareWeb.click();
+//
+//            CloseMessenger();
+//            SwitchToDefaultFrame();
+//            WebElement CommerceWeb = driver.findElement(By.xpath("//a[@title='e-Commerce Application Testing']/div[@class='traingle2']"));
+//            CommerceWeb.click();
+//            driver.navigate().to("https://www.testrigtechnologies.com/domains/");
+//
+//            CloseMessenger();
+//            SwitchToDefaultFrame();
+//            WebElement HealthcareWeb = driver.findElement(By.xpath("//a[@title='Healthcare Domain Testing']/div[@class='traingle2']"));
+//            HealthcareWeb.click();
 
             driver.close();
 

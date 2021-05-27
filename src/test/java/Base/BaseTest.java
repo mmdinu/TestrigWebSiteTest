@@ -34,7 +34,7 @@ public class BaseTest {
     public void CloseMessenger(){
         try {
             driver.switchTo().frame(driver.findElement(By.xpath("//iframe[@class='drift-frame-controller']")));
-            WebElement closeMess = driver.findElement(By.xpath("//div[@class='drift-controller-icon--close']"));
+            WebElement closeMess = driver.findElement(By.xpath("//button[@aria-label='Click to close chat']"));
             if(closeMess.isDisplayed()){
                 closeMess.click();
             }

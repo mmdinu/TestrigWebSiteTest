@@ -45,47 +45,47 @@ public class HireQAPage extends BaseTest {
         YourMessageWeb.sendKeys(YourMessageValue);
         YourMessageWeb.sendKeys(Keys.ENTER);
 
-        CloseMessenger();
-        SwitchToDefaultFrame();
-        WebElement ApiWeb = driver.findElement(By.xpath("//section[@id='hire_tester_pages']//a[contains(@title,'Hire API Tester')]"));
-        ApiWeb.click();
-        driver.navigate().to("https://www.testrigtechnologies.com/hire-tester/");
-
-        CloseMessenger();
-        SwitchToDefaultFrame();
-        WebElement PerformanceWeb = driver.findElement(By.xpath("//section[@id='hire_tester_pages']//a[contains(@title,'Hire Performance Testers')]"));
-        PerformanceWeb.click();
-        driver.navigate().to("https://www.testrigtechnologies.com/hire-tester/");
-
-
-        CloseMessenger();
-        SwitchToDefaultFrame();
-        WebElement SecurityWeb = driver.findElement(By.xpath("//section[@id='hire_tester_pages']//a[contains(@title,'Hire Security Tester')]"));
-        SecurityWeb.click();
-        driver.navigate().to("https://www.testrigtechnologies.com/hire-tester/");
-
-        CloseMessenger();
-        SwitchToDefaultFrame();
-        WebElement SeleniumWeb = driver.findElement(By.xpath("//section[@id='hire_tester_pages']//a[contains(@title,'Hire Selenium Tester')]"));
-        SeleniumWeb.click();
-        driver.navigate().to("https://www.testrigtechnologies.com/hire-tester/");
-
-        CloseMessenger();
-        SwitchToDefaultFrame();
-        WebElement ManualWeb = driver.findElement(By.xpath("//section[@id='hire_tester_pages']//a[contains(@title,'Hire Manual Tester')]"));
-        ManualWeb.click();
-        driver.navigate().to("https://www.testrigtechnologies.com/hire-tester/");
-
-        CloseMessenger();
-        SwitchToDefaultFrame();
-        WebElement AppiumWeb = driver.findElement(By.xpath("//section[@id='hire_tester_pages']//a[contains(@title,'Hire Appium Testers')]"));
-        AppiumWeb.click();
-        driver.navigate().to("https://www.testrigtechnologies.com/hire-tester/");
-
-        CloseMessenger();
-        SwitchToDefaultFrame();
-        WebElement FunctionalWeb = driver.findElement(By.xpath("//section[@id='hire_tester_pages']//a[contains(@title,'Hire Functional Testers')]"));
-        FunctionalWeb.click();
+//        CloseMessenger();
+//        SwitchToDefaultFrame();
+//        WebElement ApiWeb = driver.findElement(By.xpath("//section[@id='hire_tester_pages']//a[contains(@title,'Hire API Tester')]"));
+//        ApiWeb.click();
+//        driver.navigate().to("https://www.testrigtechnologies.com/hire-tester/");
+//
+//        CloseMessenger();
+//        SwitchToDefaultFrame();
+//        WebElement PerformanceWeb = driver.findElement(By.xpath("//section[@id='hire_tester_pages']//a[contains(@title,'Hire Performance Testers')]"));
+//        PerformanceWeb.click();
+//        driver.navigate().to("https://www.testrigtechnologies.com/hire-tester/");
+//
+//
+//        CloseMessenger();
+//        SwitchToDefaultFrame();
+//        WebElement SecurityWeb = driver.findElement(By.xpath("//section[@id='hire_tester_pages']//a[contains(@title,'Hire Security Tester')]"));
+//        SecurityWeb.click();
+//        driver.navigate().to("https://www.testrigtechnologies.com/hire-tester/");
+//
+//        CloseMessenger();
+//        SwitchToDefaultFrame();
+//        WebElement SeleniumWeb = driver.findElement(By.xpath("//section[@id='hire_tester_pages']//a[contains(@title,'Hire Selenium Tester')]"));
+//        SeleniumWeb.click();
+//        driver.navigate().to("https://www.testrigtechnologies.com/hire-tester/");
+//
+//        CloseMessenger();
+//        SwitchToDefaultFrame();
+//        WebElement ManualWeb = driver.findElement(By.xpath("//section[@id='hire_tester_pages']//a[contains(@title,'Hire Manual Tester')]"));
+//        ManualWeb.click();
+//        driver.navigate().to("https://www.testrigtechnologies.com/hire-tester/");
+//
+//        CloseMessenger();
+//        SwitchToDefaultFrame();
+//        WebElement AppiumWeb = driver.findElement(By.xpath("//section[@id='hire_tester_pages']//a[contains(@title,'Hire Appium Testers')]"));
+//        AppiumWeb.click();
+//        driver.navigate().to("https://www.testrigtechnologies.com/hire-tester/");
+//
+//        CloseMessenger();
+//        SwitchToDefaultFrame();
+//        WebElement FunctionalWeb = driver.findElement(By.xpath("//section[@id='hire_tester_pages']//a[contains(@title,'Hire Functional Testers')]"));
+//        FunctionalWeb.click();
 
 
         driver.close();

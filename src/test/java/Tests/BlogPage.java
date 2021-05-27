@@ -22,27 +22,27 @@ public class BlogPage extends BaseTest {
         Top3ApiWeb.click();
         driver.navigate().back();
 
-        CloseMessenger();
-        SwitchToDefaultFrame();
-        WebElement TopQAAutoWeb = driver.findElement(By.xpath("//*[@id='blogs']/div/div[1]/div[2]/h6/a"));
-        TopQAAutoWeb.click();
-        driver.navigate().back();
-
-        CloseMessenger();
-        SwitchToDefaultFrame();
-        WebElement TopMobileAppWeb = driver.findElement(By.xpath("//*[@id='blogs']/div/div[1]/div[9]/h6/a"));
-        TopMobileAppWeb.click();
-        driver.navigate().back();
-
-        CloseMessenger();
-        SwitchToDefaultFrame();
-        WebElement BlogPg4Web = driver.findElement(By.xpath("//*[@id='blogs']/div/div[2]/ul/li[4]/a"));
-        BlogPg4Web.click();
-
-        CloseMessenger();
-        SwitchToDefaultFrame();
-        WebElement GuideTPTWeb = driver.findElement(By.xpath("//*[@id='blogs']/div/div[1]/div[1]/h6/a"));
-        GuideTPTWeb.click();
+//        CloseMessenger();
+//        SwitchToDefaultFrame();
+//        WebElement TopQAAutoWeb = driver.findElement(By.xpath("//*[@id='blogs']/div/div[1]/div[2]/h6/a"));
+//        TopQAAutoWeb.click();
+//        driver.navigate().back();
+//
+//        CloseMessenger();
+//        SwitchToDefaultFrame();
+//        WebElement TopMobileAppWeb = driver.findElement(By.xpath("//*[@id='blogs']/div/div[1]/div[9]/h6/a"));
+//        TopMobileAppWeb.click();
+//        driver.navigate().back();
+//
+//        CloseMessenger();
+//        SwitchToDefaultFrame();
+//        WebElement BlogPg4Web = driver.findElement(By.xpath("//*[@id='blogs']/div/div[2]/ul/li[4]/a"));
+//        BlogPg4Web.click();
+//
+//        CloseMessenger();
+//        SwitchToDefaultFrame();
+//        WebElement GuideTPTWeb = driver.findElement(By.xpath("//*[@id='blogs']/div/div[1]/div[1]/h6/a"));
+//        GuideTPTWeb.click();
 
 
         driver.close();
