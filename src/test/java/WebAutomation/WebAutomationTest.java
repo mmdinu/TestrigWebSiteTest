@@ -2,20 +2,57 @@ package WebAutomation;
 
 import Base.BaseTestAutomation;
 import org.junit.Test;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
+
+import java.awt.*;
+import java.awt.event.KeyEvent;
 
 public class WebAutomationTest extends BaseTestAutomation {
 
     @Test
-    public void Automation(){
-        WebElement UrlInWeb = driver.findElement(By.name("url"));
-        UrlInWeb.click();
-        String UrlInValue = "https://www.testrigtechnologies.com/";
-        UrlInWeb.sendKeys(UrlInValue);
+    public void Automation() throws InterruptedException, AWTException {
+        driver.get("https://www.webpagetest.org/result/210306_Ai58_ad51e71a7b3df983174f4888617ced7d/1/details/#waterfall_view_step1");
+        driver.manage().window().maximize();
+        Robot robot = new Robot();
+        System.out.println("About to zoom in");
+        for (int i = 0; i < 3; i++) {
+            robot.keyPress(KeyEvent.VK_CONTROL);
+            robot.keyPress(KeyEvent.VK_ADD);
+            robot.keyRelease(KeyEvent.VK_ADD);
+            robot.keyRelease(KeyEvent.VK_CONTROL);
+        }
+        Thread.sleep(2000);
+        ScrollPage(50);
+        Thread.sleep(2000);
 
-        WebElement StartTest = driver.findElement(By.xpath("//*[@id='analytical-review']/ul/li[1]/button"));
-        StartTest.click();
+        driver.get("https://www.webpagetest.org/result/210306_AiNV_48bbc445855593364b7124dc5743c43a/1/details/#waterfall_view_step1");
+        driver.manage().window().maximize();
+        Thread.sleep(2000);
+        ScrollPage(60);
+        Thread.sleep(2000);
+
+        driver.get("https://nibbler.silktide.com/en_US/reports/www.testrigtechnologies.com");
+        driver.manage().window().maximize();
+        System.out.println("About to zoom in");
+        for (int i = 0; i < 3; i++) {
+            robot.keyPress(KeyEvent.VK_CONTROL);
+            robot.keyPress(KeyEvent.VK_ADD);
+            robot.keyRelease(KeyEvent.VK_ADD);
+            robot.keyRelease(KeyEvent.VK_CONTROL);
+        }
+        Thread.sleep(2000);
+        ScrollPage(60);
+        Thread.sleep(2000);
+
+
+
+
+
+
+
+
+        driver.close();
+
+
 
 
 
