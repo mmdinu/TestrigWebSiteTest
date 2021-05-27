@@ -1,1 +1,2 @@
-# TestigWebSiteTest
+# TestrigWebSiteTest
+Manual and automation
