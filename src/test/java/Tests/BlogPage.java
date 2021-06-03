@@ -29,6 +29,7 @@ public class BlogPage extends BaseTest {
         driver.navigate().back();
 
 //        CloseMessenger();
+
 //        SwitchToDefaultFrame();
 //        WebElement TopMobileAppWeb = driver.findElement(By.xpath("//*[@id='blogs']/div/div[1]/div[9]/h6/a"));
 //        TopMobileAppWeb.click();
