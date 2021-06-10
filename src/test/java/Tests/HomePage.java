@@ -32,35 +32,35 @@ public class HomePage extends BaseTest {
         OurClientWeb.click();
         driver.navigate().to("https://www.testrigtechnologies.com/");
 
-//        CloseMessenger();
-//        SwitchToDefaultFrame();
-//        WebElement CaseStudyWeb = driver.findElement(By.id("menu-item-1308"));
-//        CaseStudyWeb.click();
-//        driver.navigate().to("https://www.testrigtechnologies.com/");
-//
-//        CloseMessenger();
-//        SwitchToDefaultFrame();
-//        WebElement CareerWeb = driver.findElement(By.id("menu-item-3576"));
-//        CareerWeb.click();
-//        driver.navigate().to("https://www.testrigtechnologies.com/");
-//
-//        CloseMessenger();
-//        SwitchToDefaultFrame();
-//        WebElement PopularWeb = driver.findElement(By.id("menu-item-3574"));
-//        PopularWeb.click();
-//        driver.navigate().to("https://www.testrigtechnologies.com/");
-//
-//        CloseMessenger();
-//        SwitchToDefaultFrame();
-//        WebElement PrivacyPolicyWeb = driver.findElement(By.xpath("//a[contains(text(),'Privacy Policy')]"));
-//        PrivacyPolicyWeb.click();
-//        driver.navigate().to("https://www.testrigtechnologies.com/");
+/*      CloseMessenger();
+        SwitchToDefaultFrame();
+        WebElement CaseStudyWeb = driver.findElement(By.id("menu-item-1308"));
+        CaseStudyWeb.click();
+        driver.navigate().to("https://www.testrigtechnologies.com/");
+
+        CloseMessenger();
+        SwitchToDefaultFrame();
+        WebElement CareerWeb = driver.findElement(By.id("menu-item-3576"));
+        CareerWeb.click();
+        driver.navigate().to("https://www.testrigtechnologies.com/");
+
+        CloseMessenger();
+        SwitchToDefaultFrame();
+        WebElement PopularWeb = driver.findElement(By.id("menu-item-3574"));
+        PopularWeb.click();
+        driver.navigate().to("https://www.testrigtechnologies.com/");
+
+        CloseMessenger();
+        SwitchToDefaultFrame();
+        WebElement PrivacyPolicyWeb = driver.findElement(By.xpath("//a[contains(text(),'Privacy Policy')]"));
+        PrivacyPolicyWeb.click();
+        driver.navigate().to("https://www.testrigtechnologies.com/");
 
         CloseMessenger();
         SwitchToDefaultFrame();
         WebElement SitemapWeb = driver.findElement(By.xpath("//a[contains(text(),'Sitemap')]"));
         SitemapWeb.click();
-
+*/
 
         driver.close();
 

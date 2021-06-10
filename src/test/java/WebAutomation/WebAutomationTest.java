@@ -56,7 +56,6 @@ public class WebAutomationTest extends BaseTestAutomation {
 
 
 
-
         driver.close();
 
 
